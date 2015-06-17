@@ -1,0 +1,225 @@
+/*general*/
+@font-face {
+    font-family: 'harabararegular';
+    src: url('harabararoman-regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+/*general*/
+@font-face {
+    font-family: 'harabararegular';
+    src: url('HarabaraMaisLight.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('BackgroundFull.png');
+    font-family: harabararegular !important;
+    letter-spacing: 0.4px;
+}
+
+#pushobj {
+    position: absolute;
+    top: 0;
+    left: 300px;
+    color: #fff;
+    background: #243342;
+    font-family: harabararegular !important;
+    font-size: 2em;
+}
+
+.multilevelpushmenu_wrapper .iconRight {
+    float: right;
+    width: 19px;
+    height: 27px;
+    background-size: 19px 27px;
+    background-repeat: no-repeat;
+    background-position: center;
+    top: 9px;
+    position: relative;
+}
+
+.fa-angle-left:before {
+    display: none;
+}
+
+.multilevelpushmenu_wrapper .floatRight {
+    position: relative;
+    top: 45px;
+    font-family: harabararegular !important;
+}
+
+.mainTitle {
+    margin-left: 20px;
+    height: 100px;
+    font-size: 32px;
+    line-height: 1em;
+    line-height: 88px;
+    color: #1f4164;
+    font-family: harabararegular !important;
+    padding: 0 .4em 0 .4em;
+    font-weight: bold;
+    height: 70px;
+}
+
+.multilevelpushmenu_inactive > h2 > .floatRight.garyIcon {
+    margin-right: -4px;
+    display: block !important;
+    height: 100%;
+    background-repeat: no-repeat;
+}
+/*icons*/
+.iconLeft {
+    background-size: 45px 45px;
+    width: 45px;
+    height: 45px;
+    float: left;
+    margin-right: 15px;
+    position: relative;
+}
+
+.expolre {
+    background-image: url('Explore.png');
+}
+
+.liText, .multilevelpushmenu_wrapper a {
+    top: 4px;
+    position: relative;
+    color: #1f4164;
+    font-size: 23px;
+    font-family: HarabaraMaisLight !important;
+    letter-spacing: 0.4px;
+}
+
+.liText {
+    top: 10px;
+}
+
+.multilevelpushmenu_wrapper .floatRight.allCategories {
+    background-image: url('Applications-Grey.png');
+}
+
+/*grayIcon*/
+.multilevelpushmenu_wrapper .floatRight.garyIcon {
+    display: none;
+    position: relative;
+    height: 34px;
+    width: 34px;
+    background-size: 34px 34px;
+    top: 48px;
+}
+
+.garyIcon.explore {
+    background-image: url('Explore-Grey.png');
+}
+
+.garyIcon.aditiveManufacturing {
+    background-image: url('AditiveManufacturing-Grey.png');
+}
+
+.garyIcon.applications {
+    background-image: url('Applications-Grey.png');
+}
+
+.garyIcon.bestPractices {
+    background-image: url('BestPractices-Grey.png');
+}
+
+.garyIcon.brochures {
+    background-image: url('Brochures-Grey.png');
+}
+
+.garyIcon.caseStudies {
+    background-image: url('CaseStudies-Grey.png');
+}
+
+.garyIcon.competition {
+    background-image: url('Competition-Grey.png');
+}
+
+.garyIcon.generalInfo {
+    background-image: url('GeneralInfo-Grey.png');
+}
+
+.garyIcon.images {
+    background-image: url('Images-Grey.png');
+}
+
+.garyIcon.industries {
+    background-image: url('Industries-Grey.png');
+}
+
+.garyIcon.materials {
+    background-image: url('Materials-Grey.png');
+}
+
+.garyIcon.moreDocs {
+    background-image: url('MoreDocs-Grey.png');
+}
+
+.garyIcon.overview {
+    background-image: url('Overview-Grey.png');
+}
+
+.garyIcon.photopolimers {
+    background-image: url('Photopolimers-Grey.png');
+}
+
+.garyIcon.productLines {
+    background-image: url('ProductLines-Grey.png');
+}
+
+.garyIcon.rapidTrototyping {
+    background-image: url('RapidTrototyping-Grey.png');
+}
+
+.garyIcon.salesTools {
+    background-image: url('SalesTools-Grey.png');
+}
+
+.garyIcon.technology {
+    background-image: url('Technology-Grey.png');
+}
+
+.garyIcon.thermoplastic {
+    background-image: url('Thermoplastic-Grey.png');
+}
+
+.garyIcon.training {
+    background-image: url('Training-Grey.png');
+}
+
+.garyIcon.videos {
+    background-image: url('Videos-Grey.png');
+}
+
+
+
+
+.levelHolderClass.ltr {
+    background-image: url('Bckgrnd85.jpg');
+}
+
+.levelHolderClass[data-level="1"] {
+    background-image: url('Bckgrnd78.jpg');
+}
+
+.levelHolderClass[data-level="2"] {
+    background-image: url('Bckgrnd71.jpg');
+}
+
+.levelHolderClass[data-level="3"] {
+    background-image: url('Bckgrnd64.jpg');
+}
+
+.levelHolderClass[data-level="4"] {
+    background-image: url('Bckgrnd57.jpg');
+}
+
+.levelHolderClass[data-level="5"] {
+    background-image: url('Bckgrnd50.jpg');
+}
