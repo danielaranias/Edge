@@ -82,7 +82,7 @@ body {
     position: relative;
 }
 
-.expolre {
+.resources {
     background-image: url('Explore.png');
 }
 
@@ -118,6 +118,9 @@ body {
     background-image: url('Explore-Grey.png');
 }
 
+.garyIcon.solutions {
+    background-image: url('SolutionsGry.png');
+}
 .garyIcon.aditiveManufacturing {
     background-image: url('AditiveManufacturing-Grey.png');
 }
