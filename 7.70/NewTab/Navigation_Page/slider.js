@@ -146,13 +146,13 @@
             // IE 8 and modern browsers, prevent event propagation
 
             function stopEventPropagation(e) {
-                if (e.stopPropagation && e.preventDefault) {
-                    e.stopPropagation();
-                    e.preventDefault();
-                } else {
-                    e.cancelBubble = true;
-                    e.returnValue = false;
-                }
+                //if (e.stopPropagation && e.preventDefault) {
+                //    e.stopPropagation();
+                //    e.preventDefault();
+                //} else {
+                //    e.cancelBubble = true;
+                //    e.returnValue = false;
+                //}
             }
 
             // propagate event to underneath layer
@@ -312,7 +312,7 @@
 
             function createBackItem($levelHolder) {
                 var $backItem = $("<div />")
-                    .attr({ "class": instance.settings.backItemClass })
+                    .attr({ "class": instance.settings.backItemClass+" backBtn" })
                     .appendTo($levelHolder);
                 var $backArrow = $("<span class='backBtnIcon'></span>");
                 $backArrow.appendTo($backItem);
@@ -1149,11 +1149,11 @@
             }
 
             if (mobileCheck()) {
-                clickEventType = 'touchend';
-                dragEventType = 'touchmove1';//eli disable swipe
+                clickEventType = 'click';//touchend eli disable swipe click
+                dragEventType = 'click';//touchmove eli disable swipe click
             } else {
-                clickEventType = 'click';
-                dragEventType = 'mousedown1';//eli disable swipe
+                clickEventType = 'click';//eli disable swipe click
+                dragEventType = 'click';//eli disable swipe click
             }
 
             // Invoke called method or init

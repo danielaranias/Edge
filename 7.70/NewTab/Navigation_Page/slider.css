@@ -60,11 +60,10 @@
     .multilevelpushmenu_wrapper li {
         text-align: left;
         border-top: 1px solid rgb(0,15,33);
-        height: 65px;
+        height: 86px;
         padding: 10px;
         cursor: pointer;
-        padding-left: 28px;
-        padding-right: 28px;
+        padding: 0;
     }
 
         .multilevelpushmenu_wrapper li:last-child {
@@ -87,7 +86,8 @@
 
     .multilevelpushmenu_wrapper .backItemClass {
         display: block;
-        padding: .4em .4em .4em .4em;
+        padding: 0;
+        height: 50px;
         background: white;
         opacity: 0.6;
         padding-left: 50px;
@@ -103,20 +103,20 @@
         }
 
         .multilevelpushmenu_wrapper .backItemClass span.backBtnIcon {
+            top: 11px;
             background-image: url('BlueArrow.png');
             float: left;
             width: 19px;
             height: 27px;
-             -moz-transform: scaleX(-1);
-        -o-transform: scaleX(-1);
-        -webkit-transform: scaleX(-1);
-        transform: scaleX(-1);
-        filter: FlipH;
-        -ms-filter: "FlipH";
+            -moz-transform: scaleX(-1);
+            -o-transform: scaleX(-1);
+            -webkit-transform: scaleX(-1);
+            transform: scaleX(-1);
+            filter: FlipH;
+            -ms-filter: "FlipH";
             background-size: 15px 20px;
             background-repeat: no-repeat;
             background-position: center;
-            top: 3px;
             position: relative;
         }
 
