@@ -1,10 +1,10 @@
 /*general*/
-@font-face {
+/*@font-face {
     font-family: 'harabararegular';
     src: url('harabararoman-regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
-}
+}*/
 /*general*/
 @font-face {
     font-family: 'harabararegular';
@@ -100,12 +100,13 @@ body {
     position: relative;
     color: #1f4164;
     font-size: 23px;
-    font-family: HarabaraMaisLight !important;
+    font-family: harabararegular !important;
     letter-spacing: 0.4px;
     height: 60px;
     padding-right: 40px;
     padding-left: 40px;
     padding-top: 20px;
+	font-weight: bold;
 }
 
     .multilevelpushmenu_wrapper .backItemClass >a {
